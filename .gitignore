@@ -1,0 +1,14 @@
+# Dependency directories
+node_modules
+
+# Project cache
+.nx
+
+# Build output
+dist
+
+# Dotenv environment variable files
+.env
+
+# VS code editor
+.vscode

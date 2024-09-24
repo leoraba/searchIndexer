@@ -1,0 +1,16 @@
+{
+	"name": "indexer",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"build": "tsc"
+	},
+	"keywords": [],
+	"author": "Leonardo Rivera",
+	"license": "ISC",
+	"dependencies": {
+		"@elastic/elasticsearch": "^8.15.0"
+	}
+}
