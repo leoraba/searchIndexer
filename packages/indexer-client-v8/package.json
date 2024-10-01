@@ -1,0 +1,20 @@
+{
+	"name": "indexer-client-v8",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/index.js",
+	"type": "module",
+	"scripts": {
+		"clean": "rimraf dist",
+		"build": "pnpm run clean && tsc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@elastic/elasticsearch": "^8.15.0",
+		"common": "link:../common",
+		"rimraf": "^6.0.1"
+	}
+}

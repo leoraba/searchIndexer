@@ -12,3 +12,9 @@ dist
 
 # VS code editor
 .vscode
+
+# Test coverage
+coverage
+
+# OS generated files
+.DS_Store

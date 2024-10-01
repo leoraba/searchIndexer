@@ -1,0 +1,16 @@
+{
+	"name": "common",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/index.js",
+	"scripts": {
+		"clean": "rimraf dist",
+		"build": "pnpm run clean && tsc"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"rimraf": "^6.0.1"
+	}
+}

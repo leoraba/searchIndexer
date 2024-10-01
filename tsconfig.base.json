@@ -8,7 +8,7 @@
 		"resolveJsonModule": true /* Enable importing .json files. */,
 
 		/* Emit */
-		// "outDir": "dist" /* Specify an output folder for all emitted files. */,
+		"declaration": true,
 		"noEmit": false /* Disable emitting files from a compilation. */,
 
 		/* Interop Constraints */
